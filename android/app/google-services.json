@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1006878898505",
+    "project_id": "flutter-revo-firsttest",
+    "storage_bucket": "flutter-revo-firsttest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006878898505:android:35c66b643663e44a098298",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006878898505-prp495abs36ggv98f8vnig95t0qd8bvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADoLjMbf9091dJmaOwtpnZe7i-GztC3cA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006878898505-prp495abs36ggv98f8vnig95t0qd8bvj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1006878898505-v0smp6j3ed94llu8nostq4gilt75vosc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.myApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
