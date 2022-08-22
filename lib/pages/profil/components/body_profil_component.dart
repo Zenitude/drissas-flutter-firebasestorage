@@ -2,7 +2,7 @@ library body_profil_component;
 
 import 'package:flutter/material.dart';
 import 'package:my_app/pages/profil/components/topprofil_component.dart';
-import 'package:my_app/pages/profil/components/bottoprofil_component.dart';
+import 'package:my_app/pages/profil/components/bottomprofil_component.dart';
 
 class BodyProfil extends StatefulWidget {
   const BodyProfil({Key? key}) : super(key: key);

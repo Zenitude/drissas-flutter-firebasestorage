@@ -1,9 +1,12 @@
+// ignore_for_file: avoid_print
+
 library bottomporfil_component;
 
 import 'package:flutter/material.dart';
 
 class BottomProfil extends StatefulWidget {
   const BottomProfil({Key? key}) : super(key: key);
+
 
   @override
   State<BottomProfil> createState() {
@@ -12,6 +15,7 @@ class BottomProfil extends StatefulWidget {
 }
 
 class _BottomProfilState extends State<BottomProfil> {
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -40,8 +44,8 @@ class _BottomProfilState extends State<BottomProfil> {
           height: 30,
           decoration: const BoxDecoration(color: Colors.black),
           child: const Center(
-            child:
-                Text('Modifier ma photo', style: TextStyle(color: Colors.white)),
+            child: Text('Modifier ma photo',
+                style: TextStyle(color: Colors.white)),
           ),
         ),
         onPressed: () {},
@@ -68,14 +72,12 @@ class _BottomProfilState extends State<BottomProfil> {
         decoration: const BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.all(Radius.circular(105)),
-            boxShadow: 
-            [
+            boxShadow: [
               BoxShadow(
-                color: Colors.black,
-                spreadRadius: 1,
-                blurRadius: 5,
-                offset: Offset(0,1)
-              )
+                  color: Colors.black,
+                  spreadRadius: 1,
+                  blurRadius: 5,
+                  offset: Offset(0, 1))
             ]),
         child: ClipRRect(
           borderRadius: const BorderRadius.all(Radius.circular(105)),
