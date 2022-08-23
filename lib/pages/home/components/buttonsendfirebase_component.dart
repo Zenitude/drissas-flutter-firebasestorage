@@ -1,4 +1,4 @@
-// ignore_for_file: avoid_print, must_be_immutable
+// ignore_for_file: avoid_print, must_be_immutable, unnecessary_null_comparison
 
 library buttonsendfirebase_component;
 
@@ -21,7 +21,7 @@ class ButtonSendFirebase extends StatefulWidget {
 
 class _ButtonSendFirebaseState extends State<ButtonSendFirebase> {
   Future uploadFile(File? file) async {
-    Reference storageRef = storage.ref('Users').child('test.png');
+    Reference storageRef = storage.ref('Users').child('test.jpg');
     UploadTask uploadTask = storageRef.putFile(file!);
     await uploadTask.whenComplete(() => print('File uploaded'));
   }

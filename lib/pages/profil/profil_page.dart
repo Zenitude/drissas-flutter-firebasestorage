@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 library profil_page;
 
 import 'package:flutter/material.dart';

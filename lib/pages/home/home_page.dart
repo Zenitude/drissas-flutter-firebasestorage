@@ -52,7 +52,9 @@ class _HomePageState extends State<HomePage> {
               _image == null
                   ? const Text('No image selected.')
                   : Image.file(_image!),
-              ButtonSendFirebase(file: _image,),
+              ButtonSendFirebase(
+                file: _image,
+              ),
             ],
           ),
         ),
@@ -67,3 +69,5 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+

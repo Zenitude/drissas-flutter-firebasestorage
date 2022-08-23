@@ -1,8 +1,10 @@
 library body_profil_component;
 
 import 'package:flutter/material.dart';
-import 'package:my_app/pages/profil/components/topprofil_component.dart';
-import 'package:my_app/pages/profil/components/bottomprofil_component.dart';
+import 'package:my_app/pages/profil/components/sub_components/topprofil_component.dart';
+import 'package:my_app/pages/profil/components/sub_components/bottomprofil_component.dart';
+
+
 
 class BodyProfil extends StatefulWidget {
   const BodyProfil({Key? key}) : super(key: key);
@@ -14,15 +16,15 @@ class BodyProfil extends StatefulWidget {
 }
 
 class _BodyProfilState extends State<BodyProfil> {
+
+
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Column(
-        children: const [
-          TopProfil(),
-          BottomProfil(),
-        ]
-      ),
+    return SingleChildScrollView(
+      child: Column(children: const [
+        TopProfil(),
+        BottomProfil(),
+      ]),
     );
   }
 }
